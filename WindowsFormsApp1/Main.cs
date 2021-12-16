@@ -16,5 +16,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void txt_nombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_apellido_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

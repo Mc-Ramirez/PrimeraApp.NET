@@ -42,6 +42,7 @@
             this.txt_apellido.Name = "txt_apellido";
             this.txt_apellido.Size = new System.Drawing.Size(351, 22);
             this.txt_apellido.TabIndex = 11;
+            this.txt_apellido.TextChanged += new System.EventHandler(this.txt_apellido_TextChanged);
             // 
             // txt_nombre
             // 
@@ -49,10 +50,11 @@
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(351, 22);
             this.txt_nombre.TabIndex = 10;
+            this.txt_nombre.TextChanged += new System.EventHandler(this.txt_nombre_TextChanged);
             // 
             // btn_entrar
             // 
-            this.btn_entrar.Location = new System.Drawing.Point(389, 296);
+            this.btn_entrar.Location = new System.Drawing.Point(389, 287);
             this.btn_entrar.Name = "btn_entrar";
             this.btn_entrar.Size = new System.Drawing.Size(75, 23);
             this.btn_entrar.TabIndex = 9;
@@ -62,7 +64,7 @@
             // cb_aceptar
             // 
             this.cb_aceptar.AutoSize = true;
-            this.cb_aceptar.Location = new System.Drawing.Point(294, 255);
+            this.cb_aceptar.Location = new System.Drawing.Point(290, 251);
             this.cb_aceptar.Name = "cb_aceptar";
             this.cb_aceptar.Size = new System.Drawing.Size(270, 20);
             this.cb_aceptar.TabIndex = 8;
